@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white !important;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.active {
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  color: white !important;
+  background-color: rgb(163, 119, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+
+.list {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+.right ul  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    color: black !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;  
+    cursor: pointer;  
+}
+.left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
